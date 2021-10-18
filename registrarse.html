@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Inicio Sesion</title>
+    <link rel="stylesheet" href="registrarse.css">
+</head>
+<body>
+<header class = "header">
+    <h2> Iniciar Sesion </h2>
+</header><hr>
+
+<main>
+  <section class="flex-container ">
+      <!--<article class="flex-item hero-image">
+          <img src="https://placeimg.com/400/400/people">
+      </article>-->
+      <article class="flex-item ocultar"> <!-- hero-image-->
+          <img src="https://placeimg.com/400/400/people">
+      </article>
+      <article class="flex-item "> <!-- hero-image-sesion-->
+        
+         <img class = "img-senki" src="https://placeimg.com/400/400/animals">
+         <hr>
+         
+         <div >
+          <h3> Iniciar Sesión</h3>
+            <hr>
+            <form class="form">
+                <label for="nombre">Nombre Completo:</label>
+              <input type="text" id="nombre" name="nombre" placeholder="    Ingrese su correo">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" placeholder="    Ingrese su correo">
+              <label for="licenciatura">Licenciatura:</label>
+              <select id="licenciaturas" name="licenciaturas" >
+                    <option value=" "> Escoge Licenciatura:</option>
+                    <option value="ingeniero">Ingeniero</option>
+                    <option value="licenciado">Licenciado</option>
+                    <option value="Abogado">Abogado</option>
+              </select>
+              <label for="password">Contraseña:</label>
+              <input type="text" id="password" name="password" placeholder="    Ingrese su contraseña">
+              <label for="repetirpassword">Repetir contraseña:</label>
+              <input type="text" id="repetirpassword" name="repetirpassword" placeholder="    Repita su contraseña">
+              <hr>
+              <button type="submit">Iniciar Sesión</button>
+              <hr>
+            </form>
+            </div>
+           
+      </article>
+  </section>  
+</main>
+</body>
+</html>
